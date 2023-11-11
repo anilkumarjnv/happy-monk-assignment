@@ -1,0 +1,96 @@
+nav {
+    background-color: #04488c;
+    list-style: none;
+    height: min-content;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    /* Text color for the links */
+    display: block;
+    padding: 7px;
+    /* Adjust padding as needed */
+    font-weight: 500;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+i.material-symbols-outlined {
+    font-size: 22px;
+    /* Adjust the size as needed */
+    color: white;
+    /* Adjust the color as needed */
+    vertical-align: middle;
+}
+
+span {
+    margin-left: 5px;
+    /* Add margin between the icon and text */
+}
+
+.navbar li {
+    margin: 3px;
+    background-color: #2d6aa7;
+    border-radius: 4px;
+    height: min-content;
+}
+
+.separator {
+    color: rgb(175, 172, 172);
+    padding: 0 5px;
+}
+
+.selected {
+    background-color: #fff !important;
+    /* color: black !important; */
+}
+
+.card {
+    width: 25rem;
+    font-size: bold;
+    font-family: 'Roboto';
+    font-weight: 500;
+    background-color: whitesmoke;
+}
+
+.addtask,
+button.edit,
+button.delete {
+    background: transparent;
+    color: black;
+    border: none;
+}
+
+.addingtask {
+    display: 'flex';
+    align-items: 'center';
+    margin: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    width: auto;
+    border: none;
+}
+
+.input-group:focus {
+    outline: none;
+}
+
+.input-group {
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 20rem;
+    height: auto;
+
+
+
+}
+
+form button {
+    margin: 2px;
+}

@@ -46,29 +46,6 @@ function Navbar(props) {
           <span>Board</span>{" "}
         </a>
       </li>
-      <li className="nav-item dropdown">
-        <a
-          className="nav-link"
-          href="#"
-          role="button"
-          data-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <i className="material-symbols-outlined">keyboard_arrow_down</i>
-        </a>
-        <div className="dropdown-menu">
-          <a className="dropdown-item" href="#">
-            Action
-          </a>
-          <a className="dropdown-item" href="#">
-            Another action
-          </a>
-          <div className="dropdown-divider" />
-          <a className="dropdown-item" href="#">
-            Something else here
-          </a>
-        </div>
-      </li>
     </ul>
     <ul className="navbar nav my-lg-0 navigation">
       <li className={`navigation-item ${selectedItem === 3 ? 'selected' : ''}`} onClick={() => handleItemClick(3)}>
